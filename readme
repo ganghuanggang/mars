@@ -1,0 +1,11 @@
+Measurement Analysis Report System
+
+This is a python based document driven system.
+
+Start from document design. The analysis result and script are embeded as comments ? or from external json file
+
+measurement provide raw data. A measurement mean data come from a wire to computer. The result is a raw data file, most likely csv. each measurement is correspoing to a hardware configuration, so it can have a pcb layout
+
+Analysis provide right looking, like graphics, figures, tables, it might need run some math, like fft, correlation and the result is a set of  filenames, 
+
+Report is the document started, after all the dependencies are ready, we can either provide to pdflatex or web server. 
